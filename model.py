@@ -54,9 +54,6 @@ class ResBlock(nn.Module):
 
 
 
-
-
-
 class ResNet(nn.Module):
     def __init__(self, n_channels, n_classes, n_classes_1, bilinear=False):
         super(ResNet, self).__init__()
@@ -135,10 +132,6 @@ class ResNet_reg(nn.Module):
          out_1 = self.fc_1(out)
          out_2 = self.fc_2(out)
          return out_1, out_2
-
-
-
-
 
 
 
