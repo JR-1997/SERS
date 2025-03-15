@@ -1,6 +1,4 @@
 
-
-
 import numpy as np
 
 def normalization(data):   ########def定义归一化函数，主要的目的：使模型更快收敛
